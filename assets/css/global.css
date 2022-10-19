@@ -52,7 +52,8 @@ h3 {
 }
 
 p {
-    
-    font-size: 18px;
+    font-size: calc(32px + (48-32)*((100vw - 320px) / (1600 - 320)));
+    font-size: calc(22px + (28-22)*((100vw - 320px) / (1600 - 320)));
+    font-size: calc(17px + (21-17)*((100vw - 320px) / (1600 - 320)));
     margin-bottom: 16px;
 }
